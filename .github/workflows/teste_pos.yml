@@ -1,0 +1,13 @@
+name: exemplo de fluxo de trabalahos 
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  acao_inicial_job:
+    runs-on: ubunto-latest 
+    steps:
+      - name: Imprime OLA
+        run: echo "OLA"
+      - name: Imprime TCHAU
+        run: echo "tchau"
